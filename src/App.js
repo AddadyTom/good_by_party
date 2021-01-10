@@ -105,7 +105,6 @@ class App extends Component {
   renderQuiz() {
     return (
       <Quiz
-        answer={this.state.answer}
         answerOptions={this.state.answerOptions}
         questionId={this.state.questionId}
         question={this.state.question}
